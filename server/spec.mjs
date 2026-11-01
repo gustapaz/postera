@@ -6,7 +6,21 @@ export function specification(service) {
     properties: {
       id: { type: "string", format: "uuid" },
       title: { type: "string" },
-      input: payload,
+      input:
+        service.meta.slug === "postera"
+          ? {
+              ...payload,
+              properties: {
+                ...payload.properties,
+                message: {
+                  ...payload.properties.message,
+                  nullable: true,
+                  description:
+                    "Ocultada como null enquanto o selo temporal está bloqueado.",
+                },
+              },
+            }
+          : payload,
       result: { type: "object" },
       revision: { type: "integer", minimum: 1, maximum: 30 },
       published: { type: "boolean" },
