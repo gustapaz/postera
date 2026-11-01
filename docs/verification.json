@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-01",
+  "automated_tests": 20,
+  "tests": "passed",
+  "typecheck": "passed",
+  "format": "passed",
+  "production_build": "passed",
+  "local_responsive_widths": [
+    375,
+    753
+  ],
+  "horizontal_overflow": "none after fixes",
+  "public_smoke": "passed",
+  "public_browser": "calculation, save, reread, sharing, separate-tab read without editor token, real file download",
+  "export_sha256": "d3c1ea827d6d875843b1b67ea91a4db4b33f0f46d7af64a89de437c6ce4c1950",
+  "deployed_application_sha": "c49af3fd12d50a08fe354dddf24897353991749b",
+  "demo": "https://postera-gustapaz.starrylinen.chatgpt.site",
+  "time_gate": "Sealed; plaintext hidden and export disabled; after one real minute server-authorized read and TXT download succeeded."
+}

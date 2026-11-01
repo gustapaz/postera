@@ -53,3 +53,9 @@ Código original [MIT](LICENSE). Fotografias, fontes e dependências preservadas
 
 
 Aurelia está fixado em 2.0.0-rc.2; é uma versão release candidate.
+
+## Experiência publicada
+
+![Primeira tela da demo](docs/experience.png)
+
+![Fluxo integrado na demo](docs/structure.png)
