@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "path": "public/media/letter.webp",
+      "source": "https://www.pexels.com/photo/crop-unrecognizable-woman-placing-blank-paper-in-envelope-7319305/",
+      "download_url": "https://images.pexels.com/photos/7319305/pexels-photo-7319305.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "author": "Angela Roma",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "verified_at": "2026-11-01T02:55:32.102412+00:00",
+      "sha256": "b6bbf764b160f9a29cc05433b3df28293b2fad2711976b2035c2564c7c13f7f8",
+      "source_sha256": "8d93b8b1eb92b536d46fc92a50e831f71652776eac32c475edd6b7f4b7cf14d8",
+      "bytes": 182110,
+      "width": 1200,
+      "height": 1800,
+      "changes": "EXIF orientation applied; RGB; resized within 1400x1800 without crop; WebP quality 84; EXIF removed."
+    }
+  ]
+}
